@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+position: fixed;
+top:0;
+left:0;
+height:100px;
+width:100%;
+padding:10px 90px;
+box-sizing:border-box;
+background: rgba(8, 54, 97, 0.6);
+border-bottom:1px solid #fff;
+}
+
+.logo
+{
+padding:22px 20px;
+height:80px;
+float:left;
+font-size:44px ;
+font-weight:bold ;
+text-transform:uppercase ;
+color:#fff;
+}
+nav ul{
+list-style:none;
+float:right;
+margin:0;
+padding:0;
+display:flex;
+}
+nav ul li a{
+
+line-height:80px;
+color:#fff;
+padding:12px 30px;
+text-decoration:none ;
+font-size:14px;
+font-weight:bold;
+text-transform:uppercase;
+}
+nav ul li a:hover{
+background: rgb(11, 6, 92);
+border-radius:20px;
+}
+section{
+width:300;
+height:100vh;
+background:url(draw.jpg);
+background-size:cover;
+background-position:center;
+
+}
+
+.btn
+{
+    background-color: cornsilk;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue ;
+    width: 180px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid chocolate;
+    font-weight: bolder;
+    border-radius: 12px;
+    cursor: pointer;
+    border-bottom-width: 8px ;
+    margin: 50px;
+}
+
+.txt
+{
+    margin: 20px;
+    width: 100px;
+    border: 3px solid chocolate;
+    border-radius: 5px ;
+    padding: 10px;
+
+}
+.log{
+    padding: 120px;
+    background-color: rgba(175, 215, 255, 0.384);
+    
+}

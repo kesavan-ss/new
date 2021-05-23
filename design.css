@@ -11,7 +11,7 @@ height:100px;
 width:100%;
 padding:10px 90px;
 box-sizing:border-box;
-background: rgba(8, 54, 97, 0.6);
+background: rgba(97, 8, 30, 0.6);
 border-bottom:1px solid #fff;
 }
 
@@ -43,13 +43,13 @@ font-weight:bold;
 text-transform:uppercase;
 }
 nav ul li a:hover{
-background: rgb(11, 6, 92);
+background: rgb(92, 6, 10);
 border-radius:20px;
 }
 section{
 width:300;
 height:100vh;
-background:url(draw.jpg);
+background:url(anim.jpg);
 background-size:cover;
 background-position:center;
 
@@ -60,15 +60,15 @@ background-position:center;
     background-color: cornsilk;
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
-    color: darkblue ;
+    color: rgb(139, 0, 0) ;
     width: 180px;
     font-size: 20px;
     text-transform: uppercase;
-    border: 3px solid chocolate;
+    border: 3px solid rgb(210, 30, 90)30, 90);
     font-weight: bolder;
     border-radius: 12px;
     cursor: pointer;
-    border-bottom-width: 8px ;
+   
     margin: 50px;
 }
 
@@ -76,13 +76,13 @@ background-position:center;
 {
     margin: 20px;
     width: 100px;
-    border: 3px solid chocolate;
+    border: 3px solid rgb(210, 30, 105);
     border-radius: 5px ;
     padding: 10px;
 
 }
 .log{
     padding: 120px;
-    background-color: rgba(175, 215, 255, 0.384);
+    background-color: rgba(255, 175, 192, 0.384);
     
 }
